@@ -1,0 +1,5 @@
+RewriteEngine On
+
+ErrorDocument 404 /404.html
+
+RewriteRule !\.(NoFile|NoneFile|html) index.php [NC,L]

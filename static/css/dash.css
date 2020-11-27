@@ -1,0 +1,90 @@
+
+.dash {
+  display: block;
+}
+button {
+  outline: 0 !important;
+}
+.error {
+  color: rgb(34, 34, 33);
+  font-size: 13px;
+}
+
+.top-dash {
+  background: rgb(19, 18, 18) !important;
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dash {
+  display: flex;
+}
+.left {
+  background: rgb(31, 30, 30) !important;
+  height: calc(100vh - 50px);
+  width: 200px;
+}
+.right-input-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  background: rgb(0, 211, 112);
+  height: calc(100vh - 50px);
+}
+.input-color {
+  border: 1px solid rgb(0, 211, 165) !important ;
+}
+.blue-button {
+  background: rgb(0, 211, 183);
+}
+.input-panel {
+  margin-bottom: 10%;
+  max-width: 500px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left a {
+  display: block;
+  padding: 10px 15px;
+}
+.logo {
+  font-size: larger;
+  color: rgb(0, 211, 112);
+  font-weight: 400;
+}
+.menubar {
+  padding: 5px;
+  cursor: pointer;
+  display: none;
+}
+.menubar div {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background: rgb(0, 211, 112);
+}
+.white {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .menubar {
+    display: block;
+  }
+  .dash .left {
+    display: none;
+  }
+  .right-input-panel {
+    padding-bottom: 80%;
+  }
+}
+body{
+  background: blue;
+}
+
+

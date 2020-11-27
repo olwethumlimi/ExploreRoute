@@ -1,0 +1,40 @@
+.input-label input{
+    box-shadow: 0;
+    
+
+}
+
+ .error{
+    color: rgb(255, 0, 85);
+    font-size: 13px;
+
+}
+
+.input-label {
+    color: white;
+}
+.LoginForm{
+    max-width: 500px !important;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+body{
+    background: rgb(31, 30, 30);
+}
+.logo{
+    font-size: larger;
+    color: rgb(0, 211, 112);
+    font-weight: 400;
+}
+
+.footer{
+    color: rgb(133, 133, 133);
+}
+button{
+    outline: 0;
+    
+}
+.green-button{
+    background: rgb(0, 211, 112) !important;
+}
