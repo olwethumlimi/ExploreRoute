@@ -31,7 +31,6 @@ you can access files via secured function
 
 $route::Add("/",function($params){
     $route::Render('home.php', ["name"=>"easyRoute"]);
-
 });
 
 ## Note don't include and local css or use you can load it from a url
@@ -43,7 +42,6 @@ css(filename)
 
 $route::Add("/",function($params){
     global $route;
-
     $route::css("foundation.css");
     $route::css("form.css");
     $route::js("jquery.js");
@@ -56,17 +54,14 @@ LoadSafeFile("path/File")
 
 $route::Add("/",function($params){
     global $route;
-
     $file=$route::LoadSafeFile("safestorage/file.jpg");
 });
 
 ## PAGE NOT FOUND USE THIS FUNCTION
 
 $route::error(function($url){
-
     global $route;    
     $route::Render('404.php',['file' => ""]);
-
 })
 
 ## To run routes use
@@ -86,10 +81,8 @@ $route::error(function($url){
 
  $route::Add("/upload",function($params){
     global $route;
-
      $res=$route::saveFile("this","neljkdkldlkdlkwName");
      print_r($res);
-
 },"post");
 
 
