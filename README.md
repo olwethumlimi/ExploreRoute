@@ -13,9 +13,11 @@ you can access files via secured function
 
 ## IMOPRT IT  BY USING
 
-  require './route.php';
+  <code>
+    require './route.php';
   $route = new Route();
 
+  </code>
 ## Now the look at the functions
 
 <b>Add(PATH ,FUNCTION,METHOD="GET")</b>
